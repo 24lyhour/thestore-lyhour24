@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sig In</title>
+    <link rel="stylesheet" type="text/css" href="create.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- scroll-reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="container">
+       <div class="leftlogin">
+            <div class="box">
+                <h1>Welcome to The store</h1>
+                <hr>
+                <p><i>Create your account ? </i></p>
+                <p><i>Please, Sig in your account !</i></p>
+
+               
+            </div>
+            <!-- <ul>
+                <li><a href="#" class="social-link"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+            </ul> -->
+<hr>
+       </div>
+
+
+
+       <div class="rightlogin">
+        
+           <form action="#" method="POST">
+            <div class="box2">
+                <h2>Reset your new password </h2>
+                
+                <input type="text" placeholder="Email or phone" name="firstname" class="inp">
+                <input type="text" placeholder="Fist name" name="lastname" class="inp">
+                <input type="text" placeholder="Old password or request" name="email"  class="inp">
+                <input type="password" id="password" name="password" required placeholder="New password" class="inp">
+                <input type="password" id="password" name="password" required placeholder="Enter password" class="inp">
+
+
+                <!-- <button class="btn" type="submit">Login</button> -->
+                 <a href="sig in.html" class="btn">Create Account</a>
+                 <br>
+                 <hr>
+                 <a href="sig in.html" class="Create">Do you have your account ?</a>
+
+               
+                   
+                
+            </div>
+            <!-- <ul>
+                <li><a href="#" class="social-link"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+            </ul> -->
+           </form>
+
+       </div>
+
+
+            <!-- clear float>>>>>> -->
+             <div style="clear: both;"></div>
+
+    </div>
+    <script>
+        const sr = ScrollReveal({
+  distance: '100px',
+  duration: 1000,
+  delay:100,
+  reset: true, // Corrected by adding a comma here
+  easing: 'ease-in-out',
+});
+
+sr.reveal('.box2', { delay: 350, origin: 'top' }); 
+// sr.reveal('.letter', { delay: 250, origin: 'top' }); 
+sr.reveal('.box', {delay:300, origin:'bottom'})
+sr.reveal('.rightlogin', {delay:200, origin:'bottom'})
+sr.reveal('.leftlogin', {delay:200, origin:'bottom'})
+
+
+
+      </script>
+
+</body>
+</html>

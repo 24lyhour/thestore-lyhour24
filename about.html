@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- scroll-reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+   
+
+  <body>
+    <header class="container">
+      <div class="topnav">
+        <div class="leftnav">
+          <ul>
+            <li>
+              <!-- <a href="index.html"><i class="fas fa-home"></i> !The Store</a> -->
+              <a href="index.html"> <i class="fas fa-shopping-cart"></i></a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button class="dropdown-button"><a class="atag" href="">Models</a></button>
+                <div class="dropdown-content">
+                    <a href="Ios.html">Ios</a>
+                    <a href="Android.html">Android</a>
+                    <a href="laptop.html">Laptop</a>
+                </div>
+            </div>
+            </li>
+            <li>
+              <a href="index.html"><i class="fas fa-mobile-alt"></i> Mobile</a>
+            </li>
+            <li>
+              <a href="laptop.html"><i class="fas fa-laptop"></i> Computer</a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fas fa-user"></i> About</a>
+            </li>
+
+            <!-- <li>
+                                <details>
+                                    <summary>More option</summary>
+                                        <a class="tag" href="#">Service</a>
+                                        <a class="tag" href="#">About</a>
+                                        <a class="tag" href="#">Contact</a>
+                                </details>
+
+                        </li> -->
+          </ul>
+        </div>
+
+        <!-- >>>>>>right nav -->
+        <div class="rightnav">
+          <ul>
+            <!-- <li><a href="#"><i class="fas fa-film"></i> Movice!!</a></li> -->
+
+            <li>
+              <details>
+                <summary>More option</summary>
+                <a class="tag" href="about.html">About</a>
+                <a class="tag" href="contact.html">Contact</a>
+              </details>
+            </li>
+          </ul>
+        </div>
+
+        <!-- clear float -->
+        <div class="cler" style="clear: both"></div>
+        <hr />
+      </div>
+    </header>
+      <!-- table style!!!!!! -->
+
+      
+
+      <section>
+        <div class="aboutleft">
+                <img src="img/chhing.jpg" alt="" >
+                
+        </div>
+
+        <div class="aboutright">
+            <div class="title">
+                <h1>Im' developer of this website !</h1>
+                <hr>
+                <div class="letter">
+                    <p>My name is Kouch lyhour</p>
+                    <p>I am study at year 3 of university</p>
+                    <p>I'm , learn major : information technology</p>
+                    <p>My skill me-FrontEnd : Html ,Css , JavaScript</p>
+                    <p>Framwork I have : React.js , Boostrap</p>
+                    <p>Backend database, Web Application , MySqli and PHP </p>
+                </div>
+               
+            </div>
+            
+        </div>
+              
+        <div style="clear: both;"></div>
+        <hr>
+      </section>
+   
+      
+
+
+          <!-- JavaScript_scroll-reveal> -->
+          <script>
+            const sr = ScrollReveal({
+      distance: '100px',
+      duration: 1000,
+      delay:100,
+      reset: true, // Corrected by adding a comma here
+      easing: 'ease-in-out',
+    });
+    
+    sr.reveal('.title', { delay: 200, origin: 'top' }); 
+    // sr.reveal('.letter', { delay: 250, origin: 'top' }); 
+    sr.reveal('.aboutleft', {delay:300, origin:'bottom'})
+    
+          </script>
+
+  </body>
+</html>
